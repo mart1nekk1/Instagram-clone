@@ -6,3 +6,64 @@
     margin: 0px;
     padding: 0px;    
 }
+
+body {
+    background-color: #fafafa;
+}
+
+/* CONTAINER */
+
+.container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* LOGIN FORM */
+
+.login {
+    background-color: #fff;
+    padding: 40px;
+}
+
+.login img {
+    display: flex;
+}
+
+.login input {
+    display: flex;
+    margin: 10px;
+}
+
+.btn {
+    display: flex;
+    background-color: #5476f0;
+    color: #fff;
+    padding: 5px 20px 5px 20px;
+}
+
+/* SIGNUP */
+
+.signup {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+/* DOWNLOAD SECTION */
+
+.download p {
+    text-align: center;
+    padding: 40px;
+}
+
+.download img {
+    max-width: 150px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+}
