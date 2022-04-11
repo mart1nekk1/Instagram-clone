@@ -19,27 +19,40 @@ body {
     justify-content: center;
 }
 
-/* LOGIN FORM */
+/* LOGO */
 
-.login {
-    background-color: #fff;
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 40px;
 }
 
-.login img {
-    display: flex;
+/* LOGIN FORM */
+
+.login{
+    background-color: #fff;
+    border: 1px solid #7a7979;
 }
 
 .login input {
     display: flex;
-    margin: 10px;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 
 .btn {
-    display: flex;
-    background-color: #5476f0;
+    background-color: #3d64f1;
     color: #fff;
-    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+}
+
+.login a {
+    color: #001e89;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
 }
 
 /* SIGNUP */
@@ -48,6 +61,13 @@ body {
     background-color: #fff;
     margin-top: 20px;
     padding: 40px;
+    text-align: center;
+    border: 1px solid #7a7979;
+}
+
+.signup a {
+    color: #1847f5;
+    text-decoration: none;
     text-align: center;
 }
 
@@ -66,4 +86,12 @@ body {
 
 footer {
     text-align: center;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 900px) {
+    .image {
+        display: none;
+    }
 }
