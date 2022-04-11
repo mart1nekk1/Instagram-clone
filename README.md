@@ -1,2 +1,2 @@
 # Instagram clone  
-Tento clone je pouze ve frontendu
+Toto je Instagram clone na přihlašovací stránku
